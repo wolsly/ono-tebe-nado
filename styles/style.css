@@ -89,11 +89,6 @@
   letter-spacing: normal;
 }
 
-.overlay {
-  height: 756px;
-  background-color: rgb(0 0 0 / .6);
-}
-
 .cover__title {
   font-size: 100px;
   position: relative;
