@@ -3,7 +3,7 @@
 .header {
   display: grid;
   align-items: center;
-  padding: 92px 24px 86px 24px;
+  padding: 92px 24px 82px 24px;
   grid-template-columns: repeat(7, 1fr);
 }
 
@@ -22,7 +22,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 157px 0 188px 16px
+  margin: 157px 0 86px 16px
 }
 
 .header__menu {
@@ -51,7 +51,7 @@
   border-bottom: none;
 }
 
-.header__link {
+.address__link {
   font-size: 1.125rem;
   text-decoration: none;
   letter-spacing: 0.01125rem;
@@ -93,25 +93,23 @@
 
 .aligned-text {
   display: block;
-  padding-top: 164px;
-  padding-left: 50px;
+  padding: 166px 0 0 50px;
   text-align: left;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
 
 .aligned-text_center {
-  display: inline-block;
-  padding: 10px 0 0 336px;
-  text-align: left;
+  display: block;
+  text-align: center;
+  padding: 13px 58px 0 0;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
 
 .aligned-text_right {
   display: block;
-  padding-top: 3px;
-  padding-right: 20px;
+  padding: 3px 20px 0 0;
   text-align: right;
   letter-spacing: 30px;
   text-transform: uppercase;
